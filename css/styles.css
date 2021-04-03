@@ -1,0 +1,147 @@
+/***********************Main Selectors************************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /* Each 100% = 16px = 1em so 90/16 = 562.5 it make the font size dynamics */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+ 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border: dotted #b5cfd8 6px;
+    border-bottom: none;
+    width: 3%;
+}
+
+a {
+    color: #0e7e82;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #eaf6f6;
+}
+
+p {
+    color: #40514E;
+}
+
+/***********************Class Selectors************************/
+
+.topContainer {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.bottomContainer {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.contactMe {
+    margin: 100px auto 60px;
+    line-height: 2;
+}
+
+.ContactMessage {
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.copyRight {
+    color: white;
+    font-size: 0.9rem;
+    padding: 30px 0 10px;
+}
+
+.creative {
+    text-decoration: underline;
+}
+
+.myImage {
+    width: 40%;
+} 
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.profile {
+    width: 40%;
+    margin: 100px auto;
+    line-height: 1.5;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.skillRow {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    image-resolution: 25%;
+}
+
+.leftSkillImages {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.rightSkillImages {
+    width: 25%;
+    float: right;   /* We can use "clear" to some kinda anti-float it*/
+    margin-left: 30px;  
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #11cdd4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    text-decoration: none;
+  }
+
+/***********************Id Selectors************************/
